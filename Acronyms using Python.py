@@ -1,6 +1,6 @@
 I = str(input("Enter a Phrase: "))
-text = I.split()
+Text = I.split()
 a=" "
-for i in text:
+for i in Text:
     a = a+str(i[0]).upper()
 print(a)
